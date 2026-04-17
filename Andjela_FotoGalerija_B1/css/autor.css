@@ -1,0 +1,60 @@
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+	padding: 1.5rem;
+	color: #2b5480;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+
+.name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 1rem;
+}
+
+h2 {
+	font-size: 32px;
+	text-align: right;
+}
+
+h4 {
+	font-size: 28px;
+	text-align: right;
+}
+
+h4 span {
+	font-size: 18px;
+	vertical-align: bottom;
+}
+
+/* CONTACT (prepravljeno za običan tekst) */
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	text-align: center;
+	font-size: 18px;
+}
+
+.contact p {
+	border: 1px solid white;
+	padding: 1rem;
+	width: 300px;
+	transition: 0.3s;
+}
+
+.contact p:hover {
+	background-color: #82b7d0;
+	color: black;
+}
