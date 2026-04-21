@@ -1,0 +1,6 @@
+1.|Pera|Peric|Neznanog junaka bb|Niš|018 123-456|pera@email.com
+2.|Mika|Mikic|Visegradska bb|Niš|018 987-475|mika@email.com
+3.|Srdjan|Simic|Sveznalacka bb|Niš|018 954-475|srdjan@email.com
+4.|Laza|Lazarevic|Beogradska bb|Beograd|018 954-225|laza@email.com
+5.|Milica|Milic|Cara Dusana 10|Novi Sad|021 222-333|milica@email.com
+6.|Milan|Jovanovic|Bulevar oslobodjenja 12|Kragujevac|034 111-222|milan@email.com
