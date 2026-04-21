@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS Skola;
+USE Skola;
+
+CREATE TABLE IF NOT EXISTS Uspeh (
+    Razred INT NOT NULL,
+    Odlican INT NOT NULL,
+    Vrlodobar INT NOT NULL,
+    Dobar INT NOT NULL,
+    Dovoljan INT NOT NULL,
+    Nedovoljan INT NOT NULL,
+    ProsOcena DECIMAL(4,2) NOT NULL
+);
+
+INSERT INTO Uspeh (Razred, Odlican, Vrlodobar, Dobar, Dovoljan, Nedovoljan, ProsOcena) VALUES
+(11, 4, 10, 3, 2, 0, 3.22),
+(22, 6, 7, 3, 4, 0, 4.21),
+(33, 2, 4, 6, 4, 0, 4.53),
+(41, 12, 4, 4, 4, 4, 2.80);

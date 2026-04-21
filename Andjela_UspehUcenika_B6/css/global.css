@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f2f2f;
+}
+
+.site-header {
+    border: 1px solid #8b9bad;
+    border-bottom: none;
+}
+
+.brand-bar {
+    background-color: #456d9d;
+    padding: 10px 18px;
+}
+
+.brand-bar h1 {
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    background-color: #324a63;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-left: 6px;
+}
+
+.top-nav a {
+    color: #dce6f0;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.top-nav a.active,
+.top-nav a:hover {
+    background-color: #4c6580;
+}
+
+.page-content {
+    flex: 1;
+    padding: 28px 18px;
+}
+
+.data-table {
+    border-collapse: collapse;
+    background-color: #ffffff;
+    font-size: 13px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #9b9b9b;
+    padding: 2px 6px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #d8e4f5;
+    color: #0d51c1;
+    font-weight: bold;
+}
+
+.message-box {
+    background-color: #ffffff;
+    border: 1px solid #b5b5b5;
+    padding: 12px 14px;
+    max-width: 700px;
+    line-height: 1.5;
+}
+
+.chart-wrapper {
+    width: 360px;
+    height: 270px;
+}
+
+.chart-canvas {
+    display: block;
+    background-color: transparent;
+}
+
+.author-card {
+    background-color: #ffffff;
+    border: 1px solid #b0b0b0;
+    padding: 22px;
+    max-width: 760px;
+    line-height: 1.6;
+}
+
+.author-card h2 {
+    margin-bottom: 12px;
+    color: #2c4b73;
+    font-size: 22px;
+}
+
+.author-card p {
+    margin-bottom: 10px;
+}
+
+.author-card ul {
+    margin: 10px 0 14px 20px;
+}
+
+.site-footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px 14px;
+    color: #6a6f79;
+    background-color: #d5d7dd;
+    border-top: 2px solid #6c7d8f;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+    .brand-bar h1 {
+        font-size: 18px;
+    }
+
+    .top-nav {
+        flex-wrap: wrap;
+    }
+
+    .page-content {
+        padding: 20px 12px;
+    }
+
+    .chart-wrapper {
+        width: 100%;
+        max-width: 360px;
+        overflow-x: auto;
+    }
+}
