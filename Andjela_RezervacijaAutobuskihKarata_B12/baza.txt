@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS autobuska_stanica;
+USE autobuska_stanica;
+
+CREATE TABLE IF NOT EXISTS rezervacije (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    BrojSedista INT NOT NULL,
+    Rezervacija TINYINT(1) NOT NULL DEFAULT 0
+);
+
+
+
+INSERT INTO rezervacije (BrojSedista, Rezervacija) VALUES
+(2, 1),
+(20, 1),
+(32, 1),
+(37, 1),
+(41, 1),
+(43, 1),
+(48, 1);
