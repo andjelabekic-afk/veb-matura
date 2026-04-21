@@ -1,0 +1,6 @@
+Ritam nereda|Paralelni svet|Rock|2010|SKC Novi Sad|C:\xampp\htdocs\cd_katalog\slike\ritam_nereda.png
+Goblini|Crno na belo|Punk|2010|SKC Novi Sad|C:\xampp\htdocs\cd_katalog\slike\goblini.png
+Blitzkrieg|2nd|Punk|2009|SKC Novi Sad|C:\xampp\htdocs\cd_katalog\slike\blitzkrieg.png
+Atheist Rap|Ja eventualno bih ako njega eliminišete|Punk-Rock|2009|SKC Novi Sad|C:\xampp\htdocs\cd_katalog\slike\atheist_rap.png
+Ova mračna vremena|Moderna mašina|Punk|2008|SKC Novi Sad|C:\xampp\htdocs\cd_katalog\slike\ova_mracna_vremena.png
+Vrisak generacije|Ponekad mi dođe da puknem od jada|Punk|2007|SKC Novi Sad|C:\xampp\htdocs\cd_katalog\slike\vrisak_generacije.png

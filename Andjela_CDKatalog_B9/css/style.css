@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #efefef;
+}
+
+.wrapper {
+    width: 98%;
+    min-height: 100vh;
+    margin: 2px auto;
+    border: 1px solid #8b96a4;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #4f73a8;
+    color: white;
+    padding: 10px 12px;
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    background-color: #394f66;
+    padding-left: 6px;
+}
+
+nav a {
+    color: #dcdcdc;
+    text-decoration: none;
+    background-color: #48627b;
+    padding: 7px 18px;
+    font-size: 12px;
+    border-right: 1px solid #394f66;
+}
+
+nav a.active {
+    background-color: #5a758e;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    padding: 14px 10px;
+    color: #666;
+}
+
+.forma-pretrage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 260px;
+    margin-bottom: 14px;
+}
+
+.red {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.red label {
+    width: 85px;
+    font-size: 12px;
+}
+
+.red input,
+.red select {
+    width: 110px;
+    padding: 2px 4px;
+    border: 1px solid #d0d0d0;
+    background-color: white;
+    font-size: 12px;
+    height: 22px;
+}
+
+.dugme {
+    margin-top: 8px;
+}
+
+.dugme button {
+    padding: 2px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 11px;
+}
+
+th, td {
+    border: 1px solid #9a9a9a;
+    padding: 4px 5px;
+    vertical-align: middle;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    display: block;
+}
+
+.poruka {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #444;
+}
+
+section {
+    margin-bottom: 24px;
+    line-height: 1.7;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #c4c9d1;
+    border-top: 1px solid #8b96a4;
+    text-align: center;
+    padding: 8px;
+    color: #666;
+    font-size: 12px;
+}
