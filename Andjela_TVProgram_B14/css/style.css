@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #efefef;
+    color: #23466f;
+}
+
+.wrapper {
+    width: 98%;
+    min-height: 100vh;
+    margin: 10px auto;
+    border: 1px solid #7d8c9a;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: #2b5786;
+    color: white;
+    min-height: 62px;
+}
+
+.header-left {
+    width: 100px;
+    border-right: 1px solid #aab8c4;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+main {
+    flex: 1;
+    padding: 12px 14px 0 14px;
+}
+
+.forma {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 8px;
+}
+
+.forma label {
+    font-size: 14px;
+}
+
+.forma select,
+.forma input {
+    width: 110px;
+    height: 26px;
+    border: 1px solid #9fa9b4;
+    padding: 2px 6px;
+    background-color: white;
+}
+
+.forma button {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #8b8b8b;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+table {
+    width: 62%;
+    margin: 0 auto 18px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #9da5ad;
+    padding: 4px 6px;
+    font-size: 14px;
+}
+
+th {
+    background-color: #2b5786;
+    color: white;
+    text-align: center;
+}
+
+td:nth-child(1) {
+    text-align: center;
+    width: 80px;
+}
+
+td:nth-child(2) {
+    width: 290px;
+}
+
+td:nth-child(3) {
+    text-align: center;
+    width: 120px;
+}
+
+td img {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+
+.no-results {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.content-page {
+    padding: 28px 14px 20px 14px;
+}
+
+.content-page h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+    color: #163b66;
+}
+
+.content-page p {
+    font-size: 16px;
+    line-height: 1.55;
+    margin-bottom: 18px;
+}
+
+.kontakt-forma {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kontakt-red {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.kontakt-red label {
+    width: 120px;
+    font-size: 15px;
+}
+
+.kontakt-red input,
+.kontakt-red textarea {
+    flex: 1;
+    border: 1px solid #9fa9b4;
+    padding: 6px;
+    background-color: white;
+}
+
+.kontakt-red textarea {
+    height: 130px;
+    resize: none;
+}
+
+.kontakt-dugme {
+    margin-left: 132px;
+}
+
+.kontakt-dugme button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2b5786;
+    color: white;
+    margin-top: auto;
+    padding: 16px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 22px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    table {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+}

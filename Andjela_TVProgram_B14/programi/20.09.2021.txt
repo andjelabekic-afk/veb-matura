@@ -1,0 +1,9 @@
+06:20|Zvala se Feriha|Informativni program|C:\TV Program\Slike\Informativni.png
+07:00|Ovčica Šone|Dečiji program|C:\TV Program\Slike\Deciji.png
+07:45|EXploziv|Informativni program|C:\TV Program\Slike\Informativni.png
+08:05|Moja mama kuva bolje od tvoje|Zabavna emisija|C:\TV Program\Slike\Zabavna.png
+10:15|Neki novi klinci|Zabavna emisija|C:\TV Program\Slike\Zabavna.png
+12:00|Praktična žena|Zabavna emisija|C:\TV Program\Slike\Zabavna.png
+13:00|Vesti|Informativni program|C:\TV Program\Slike\Informativni.png
+13:15|Andrija i Anđelka specijal|Serija|C:\TV Program\Slike\Serija.png
+14:00|Mehaničar|Film|C:\TV Program\Slike\Film.png
