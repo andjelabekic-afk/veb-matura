@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +7,11 @@
     <link rel="shortcut icon" href="./slike/LOGO.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/uputstva.css">
-    <title>B1 - Foto Galerija | Uputstvo</title>
+    <title>Б1 - Фото галерија | Упутство</title>
 </head>
 <body>
     <header>
-        <h1>Foto galerija - Uputstvo</h1>
+        <h1>Фото галерија - Упутство</h1>
         <?php 
             $url = "uputstvo";
             require "./components/nav.php";
@@ -19,20 +19,26 @@
     </header>
     <main>
         <section>
-            <h2>Početna</h2>
+            <h2>Почетна</h2>
             <p>
-                Na početnoj stranici možete videti galeriju slika. <br>
-                Galerija se sastoji iz jedne centralne slike, sa svojim opisom iznad nje i 10 malih slika ispod. <br>
-                Klikom na jednu od malih slika postavljate je za centralnu te će ona zameniti trenutnu centralnu sliku i njen opis svojim.
+                На почетној страници можете видети галерију слика. <br>
+                Галерија се састоји из једне централне слике, њеног описа изнад слике и 10 малих слика испод. <br>
+                Кликом на једну од малих слика она се поставља као централна слика, а њен опис замењује претходни опис.
             </p>
         </section>
         <section>
-            <h2>Autor</h2>
-            <p>Na stranici o autoru možete videti ko je autor ove aplikacije i kako ga možete kontaktirati.</p>
+            <h2>О аутору</h2>
+            <p>
+                На страници О аутору можете видети основне податке о аутору ове апликације и контакт податке.
+            </p>
         </section>
         <section>
-            <h2>Uputstvo</h2>
-            <p>Na stranici uputstvo možete videti uputstva aplikacije.</p>
+            <h2>Упутство</h2>
+            <p>
+                На страници Упутство налази се кратко објашњење начина коришћења апликације. <br>
+                Апликација се састоји од три странице: Почетна, О аутору и Упутство. <br>
+                CSS датотеке се налазе у фолдеру css, JavaScript датотека у фолдеру js, а слике у фолдеру slike.
+            </p>
         </section>
     </main>
 </body>
