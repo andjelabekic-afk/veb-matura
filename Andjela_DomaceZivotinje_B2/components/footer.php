@@ -2,7 +2,7 @@
 <html lang="sr-RS">
 <body>
 	<footer>
-		Copyrigth &copy Predškolska ustanova "Srećno dete"
+		Ауторска права &copy; Предшколска установа "Срећно дете"
 	</footer>
 </body>
 </html>
