@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
     </header>
     <h2>Звуци инструмената</h2>
     <main>
-        <div style="display: flex">
+        <div class="slova">
             <div class="naziv glow">
                 <span>М</span>
                 <span>У</span>
@@ -50,61 +50,61 @@
             <tbody>
                 <tr>
                     <td>Гитара</td>
-                    <td><div class="instrument"><img src="./slike/gitara.jpg" alt="gitara" id="gitara"></div></td>
+                    <td><div class="instrument"><img src="./slike/gitara.jpg" alt="гитара" id="gitara"></div></td>
                     <td>
-                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="zvucnik" id="gitara-zvuk"></div>
+                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="звучник" id="gitara-zvuk"></div>
                         <a href="./instrument.php?klasa=zicani" target="_blank" class="saznaj-vise">Сазнај више</a>
                     </td>
                 </tr>
                 <tr>
                     <td>Виолина</td>
-                    <td><div class="instrument"><img src="./slike/violina.jpg" alt="violina" id="violina"></div></td>
+                    <td><div class="instrument"><img src="./slike/violina.jpg" alt="виолина" id="violina"></div></td>
                     <td>
-                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="zvucnik" id="violina-zvuk"></div>
+                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="звучник" id="violina-zvuk"></div>
                         <a href="./instrument.php?klasa=gudacki" target="_blank" class="saznaj-vise">Сазнај више</a>
                     </td>
                 </tr>
                 <tr>
                     <td>Клавир</td>
-                    <td><div class="instrument"><img src="./slike/klavir.jpg" alt="klavir" id="klavir"></div></td>
+                    <td><div class="instrument"><img src="./slike/klavir.jpg" alt="клавир" id="klavir"></div></td>
                     <td>
-                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="zvucnik" id="klavir-zvuk"></div>
+                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="звучник" id="klavir-zvuk"></div>
                         <a href="./instrument.php?klasa=dirke" target="_blank" class="saznaj-vise">Сазнај више</a>
                     </td>
                 </tr>
                 <tr>
                     <td>Бубњеви</td>
-                    <td><div class="instrument"><img src="./slike/bubnjevi.jpg" alt="bubnjevi" id="bubnjevi"></div></td>
+                    <td><div class="instrument"><img src="./slike/bubnjevi.jpg" alt="бубњеви" id="bubnjevi"></div></td>
                     <td>
-                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="zvucnik" id="bubnjevi-zvuk"></div>
+                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="звучник" id="bubnjevi-zvuk"></div>
                         <a href="./instrument.php?klasa=udaraljke" target="_blank" class="saznaj-vise">Сазнај више</a>
                     </td>
                 </tr>
                 <tr>
                     <td>Хармоника</td>
-                    <td><div class="instrument"><img src="./slike/harmonika.jpg" alt="harmonika" id="harmonika"></div></td>
+                    <td><div class="instrument"><img src="./slike/harmonika.jpg" alt="хармоника" id="harmonika"></div></td>
                     <td>
-                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="zvucnik" id="harmonika-zvuk"></div>
+                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="звучник" id="harmonika-zvuk"></div>
                         <a href="./instrument.php?klasa=dirke" target="_blank" class="saznaj-vise">Сазнај више</a>
                     </td>
                 </tr>
                 <tr>
                     <td>Контрафагот</td>
-                    <td><div class="instrument"><img src="./slike/kontrafagot.webp" alt="kontrafagot" id="kontrafagot"></div></td>
+                    <td><div class="instrument"><img src="./slike/kontrafagot.webp" alt="контрафагот" id="kontrafagot"></div></td>
                     <td>
-                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="zvucnik" id="kontrafagot-zvuk"></div>
+                        <div class="zvucnik"><img src="./slike/zvucnik.svg" alt="звучник" id="kontrafagot-zvuk"></div>
                         <a href="./instrument.php?klasa=duvacki" target="_blank" class="saznaj-vise">Сазнај више</a>
                     </td>
                 </tr>
             </tbody>
         </table>
     </main>
-    <audio src="./audio/gitara.mp3" id="audio-gitara">
-    <audio src="./audio/violina.mp3" id="audio-violina">
-    <audio src="./audio/klavir.mp3" id="audio-klavir">
-    <audio src="./audio/bubnjevi.mp3" id="audio-bubnjevi">
-    <audio src="./audio/harmonika.mp3" id="audio-harmonika">
-    <audio src="./audio/kontrafagot.mp3" id="audio-kontrafagot">
+    <audio src="./audio/gitara.mp3" id="audio-gitara"></audio>
+    <audio src="./audio/violina.mp3" id="audio-violina"></audio>
+    <audio src="./audio/klavir.mp3" id="audio-klavir"></audio>
+    <audio src="./audio/bubnjevi.mp3" id="audio-bubnjevi"></audio>
+    <audio src="./audio/harmonika.mp3" id="audio-harmonika"></audio>
+    <audio src="./audio/kontrafagot.mp3" id="audio-kontrafagot"></audio>
 <?php
 require "./components/footer.php";
 ?>
