@@ -1,7 +1,17 @@
 <?php
 
-function ucitajDatume($folder = "./programi")
+function putanjaPrograma($folder = null)
 {
+    if ($folder === null) {
+        return __DIR__ . "/programi";
+    }
+
+    return $folder;
+}
+
+function ucitajDatume($folder = null)
+{
+    $folder = putanjaPrograma($folder);
     $datumi = [];
 
     if (!is_dir($folder)) {
@@ -29,9 +39,17 @@ function ucitajDatume($folder = "./programi")
     return $datumi;
 }
 
-function ucitajProgramZaDatum($datum, $folder = "./programi")
+function ucitajProgramZaDatum($datum, $folder = null)
 {
+    $folder = putanjaPrograma($folder);
     $rezultat = [];
+
+    $datum = trim($datum);
+
+    if ($datum === "") {
+        return $rezultat;
+    }
+
     $putanja = $folder . "/" . $datum . ".txt";
 
     if (!file_exists($putanja)) {
@@ -60,8 +78,9 @@ function ucitajProgramZaDatum($datum, $folder = "./programi")
     return $rezultat;
 }
 
-function ucitajSveTipove($folder = "./programi")
+function ucitajSveTipove($folder = null)
 {
+    $folder = putanjaPrograma($folder);
     $tipovi = [];
     $datumi = ucitajDatume($folder);
 
