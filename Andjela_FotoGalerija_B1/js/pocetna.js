@@ -1,22 +1,23 @@
 const opisi = {
-    "slika1": "Mapa prikazuje raspored sedam svetskih čuda antičkog sveta i mesta na kojima su se ona nalazila. Na njoj možemo videti da su čuda bila raspoređena u različitim delovima starog sveta, od Egipta i Mesopotamije do Male Azije i Grčke. Ova mapa pomaže korisniku da lakše poveže svako čudo sa njegovim geografskim položajem i istorijskim okruženjem. Sedam svetskih čuda antičkog sveta predstavljaju najpoznatija graditeljska i umetnička dostignuća starih civilizacija. Ona pokazuju veliko znanje, bogatstvo, verovanja i veštinu naroda koji su ih stvorili. Od svih antičkih čuda do danas je u potpunosti sačuvana samo Keopsova piramida u Gizi, dok su ostala poznata na osnovu istorijskih izvora, opisa i arheoloških ostataka.",
-    "slika2": "Viseći vrtovi Semiramide, prema predanju, nalazili su se u Vavilonu. Smatra se da ih je izgradio kralj Navuhodonosor II za svoju suprugu. Vrtovi su bili postavljeni na visokim terasama i ispunjeni zelenilom, zbog čega su ostali simbol lepote i raskoši drevnog Vavilona.",
+    "slika1": "Мапа приказује распоред седам светских чуда античког света и места на којима су се она налазила. На њој можемо видети да су чуда била распоређена у различитим деловима старог света, од Египта и Месопотамије до Мале Азије и Грчке. Ова мапа помаже кориснику да лакше повеже свако чудо са његовим географским положајем и историјским окружењем. Седам светских чуда античког света представљају најпознатија градитељска и уметничка достигнућа старих цивилизација. Она показују велико знање, богатство, веровања и вештину народа који су их створили. Од свих античких чуда до данас је у потпуности сачувана само Кеопсова пирамида у Гизи, док су остала позната на основу историјских извора, описа и археолошких остатака.",
 
-    "slika3": "Artemidin hram u Efesu bio je posvećen boginji Artemidi, zaštitnici lova i prirode. Nalazio se na prostoru današnje Turske i bio je poznat po velikom broju stubova, raskošnoj dekoraciji i veličini. Smatra se jednim od najlepših hramova antičkog sveta.",
+    "slika2": "Висећи вртови Семирамиде, према предању, налазили су се у Вавилону. Сматра се да их је изградио краљ Навуходоносор II за своју супругу. Вртови су били постављени на високим терасама и испуњени зеленилом, због чега су остали симбол лепоте и раскоши древног Вавилона.",
 
-    "slika4": "Mauzolej u Halikarnasu bio je raskošna grobnica kralja Mauzola i njegove supruge Artemizije. Izgrađen je u 4. veku pre nove ere u Halikarnasu, današnjem Bodrumu u Turskoj. Bio je poznat po bogatoj dekoraciji, monumentalnom izgledu i velikom uticaju na kasniju arhitekturu.",
+    "slika3": "Артемидин храм у Ефесу био је посвећен богињи Артемиди, заштитници лова и природе. Налазио се на простору данашње Турске и био је познат по великом броју стубова, раскошној декорацији и величини. Сматра се једним од најлепших храмова античког света.",
 
-    "slika5": "Keopsova piramida u Gizi je najstarije i jedino sačuvano čudo antičkog sveta. Podignuta je kao grobnica faraona Keopsa oko 2560. godine pre nove ere. Sagrađena je od velikih kamenih blokova i vekovima je bila jedna od najviših građevina na svetu.",
+    "slika4": "Маузолеј у Халикарнасу био је раскошна гробница краља Маузола и његове супруге Артемизије. Изграђен је у 4. веку пре нове ере у Халикарнасу, данашњем Бодруму у Турској. Био је познат по богатој декорацији, монументалном изгледу и великом утицају на каснију архитектуру.",
 
-    "slika6": "Zevsova statua u Olimpiji bila je delo poznatog grčkog vajara Fidije. Predstavljala je vrhovnog grčkog boga Zevsa kako sedi na prestolu. Bila je izrađena od zlata, slonovače i drveta, a nalazila se u Zevsovom hramu u Olimpiji.",
+    "slika5": "Кеопсова пирамида у Гизи је најстарије и једино сачувано чудо античког света. Подигнута је као гробница фараона Кеопса око 2560. године пре нове ере. Саграђена је од великих камених блокова и вековима је била једна од највиших грађевина на свету.",
 
-    "slika7": "Ostaci Artemidinog hrama u Efesu danas svedoče o nekadašnjoj veličini ovog antičkog svetilišta. Iako hram više ne postoji u svom prvobitnom obliku, sačuvani stubovi i ruševine podsećaju na značaj Efesa i na arhitektonska dostignuća starog sveta.",
+    "slika6": "Зевсова статуа у Олимпији била је дело познатог грчког вајара Фидије. Представљала је врховног грчког бога Зевса како седи на престолу. Била је израђена од злата, слоноваче и дрвета, а налазила се у Зевсовом храму у Олимпији.",
 
-    "slika8": "Piramide u Gizi predstavljaju jedan od najpoznatijih simbola starog Egipta. Najpoznatija među njima je Keopsova piramida, koja pripada sedam svetskih čuda antičkog sveta. Ove građevine pokazuju razvijeno znanje Egipćana iz matematike, građevinarstva i organizacije rada.",
+    "slika7": "Остаци Артемидиног храма у Ефесу данас сведоче о некадашњој величини овог античког светилишта. Иако храм више не постоји у свом првобитном облику, сачувани стубови и рушевине подсећају на значај Ефеса и на архитектонска достигнућа старог света.",
 
-    "slika9": "Kolos sa Rodosa bio je ogromna bronzana statua boga Heliosa, zaštitnika ostrva Rodos. Podignut je u znak pobede i slobode grada. Iako je srušen u zemljotresu, ostao je jedan od najpoznatijih simbola snage, umetnosti i graditeljstva antičke Grčke.",
+    "slika8": "Пирамиде у Гизи представљају један од најпознатијих симбола старог Египта. Најпознатија међу њима је Кеопсова пирамида, која припада седам светских чуда античког света. Ове грађевине показују развијено знање Египћана из математике, грађевинарства и организације рада.",
 
-    "slika10": "Čičen Ica je poznato arheološko nalazište na poluostrvu Jukatan u Meksiku. Najpoznatija građevina je Kukulkanova piramida, koja pokazuje znanje Maja iz astronomije, matematike i arhitekture. Ova slika predstavlja jedno od najpoznatijih svetskih kulturnih nasleđa."
+    "slika9": "Колос са Родоса био је огромна бронзана статуа бога Хелиоса, заштитника острва Родос. Подигнут је у знак победе и слободе града. Иако је срушен у земљотресу, остао је један од најпознатијих симбола снаге, уметности и градитељства античке Грчке.",
+
+    "slika10": "Чичен Ица је познато археолошко налазиште на полуострву Јукатан у Мексику. Најпознатија грађевина је Кукулканова пирамида, која показује знање Маја из астрономије, математике и архитектуре. Ова слика представља једно од најпознатијих светских културних наслеђа."
 };
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -24,7 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const centralnaSlika = document.querySelector(".center-image img");
     const maleSlike = document.querySelectorAll(".small-image img");
 
-    // Odmah prikazuje tekst za početnu sliku, da se ne vidi Lorem ipsum.
+    // Одмах приказује текст за почетну слику, да се не види Lorem ipsum.
     if (opis) {
         opis.value = opisi["slika1"];
     }
