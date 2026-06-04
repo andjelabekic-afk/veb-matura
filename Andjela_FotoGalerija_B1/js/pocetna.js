@@ -1,19 +1,39 @@
 const opisi = {
-	"slika1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel velit lorem. Sed eget dignissim purus, sit amet elementum mi. Fusce viverra sapien libero, vel posuere neque accumsan at. Sed elementum luctus augue quis feugiat. Nunc vel volutpat mauris, non sodales justo. Mauris imperdiet volutpat massa, sed consequat nulla aliquet in. Duis in massa tincidunt, imperdiet dui nec, porttitor lacus. Ut aliquet mollis ante eget pulvinar. Suspendisse venenatis sagittis est mattis aliquam. Donec augue sapien, molestie quis mattis non, posuere vel ligula. Aliquam finibus neque vel luctus ornare. Pellentesque ac lectus gravida, vestibulum enim ut, aliquet elit. Maecenas tincidunt leo molestie nisl fringilla, in mattis mauris sodales.",
-	"slika2": "Suspendisse lobortis nisl sed ante porta rutrum. Aliquam rutrum egestas odio quis dapibus. Maecenas rutrum enim mi, ac interdum mi gravida in. Ut vel elit velit. Praesent eget efficitur neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus lorem, semper ut fringilla non, suscipit posuere neque. Aliquam blandit nisl urna, et auctor dui imperdiet ut. Cras facilisis bibendum arcu vel placerat. Donec ornare lectus nunc, a auctor justo luctus non. Aenean eu urna convallis, tempor diam scelerisque, varius nisi. Fusce rhoncus est sed feugiat luctus. Suspendisse potenti. Morbi eget nisl convallis, fermentum nunc eget, varius ex. Donec vulputate orci nulla, ac feugiat ipsum aliquet et.",
-	"slika3": "Fusce commodo, mi a mattis dictum, tortor quam sollicitudin justo, ac rhoncus metus dui id velit. Nullam placerat libero sed ullamcorper dictum. Donec eleifend felis risus, nec ultrices erat feugiat vel. Donec venenatis ex arcu, non rhoncus metus porta ac. Nulla nec maximus risus, non placerat nisl. Sed ut lacus ac ex tristique faucibus id quis enim. Pellentesque interdum dapibus augue in consequat. Phasellus at ex ut quam elementum volutpat. Ut purus diam, tristique a suscipit in, consequat ac odio. Nunc tincidunt neque sit amet rhoncus viverra.",
-	"slika4": "In quam libero, mollis at leo ut, volutpat euismod eros. Nam ligula urna, venenatis vel luctus vitae, fermentum a ipsum. Duis pulvinar lorem eget nibh mollis, in viverra ex interdum. Morbi et arcu non dolor porta malesuada. Nullam luctus hendrerit metus, ut lacinia libero ornare eget. Phasellus nisl tortor, efficitur eu justo in, commodo dignissim dolor. Aenean dictum pellentesque elit. Aliquam ultricies laoreet molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris sapien leo, lobortis a volutpat vel, auctor vel tortor.",
-	"slika5": "Ut laoreet et nisi eu interdum. Sed fringilla scelerisque velit et hendrerit. Morbi condimentum, nibh eget porta fringilla, tellus magna molestie risus, vestibulum ultricies nulla nibh et velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean porttitor nisl euismod leo luctus placerat. Nunc a elit at arcu elementum maximus vitae id tortor. Fusce at lacus porta, iaculis velit nec, convallis justo. Sed egestas risus sit amet diam luctus, eu lacinia ipsum sodales. Quisque felis turpis, laoreet vehicula diam ut, eleifend egestas sapien. Quisque tortor lacus, lacinia aliquam augue non, lobortis molestie dui. Fusce eget semper lectus. Pellentesque ac urna sodales, feugiat turpis ut, eleifend velit. Duis maximus semper neque, vel faucibus mi placerat eget. Mauris tempor nibh in libero hendrerit, quis elementum arcu fermentum. Donec sed justo dui.",
-	"slika6": "In dapibus auctor elit. Nulla massa justo, vulputate ut enim quis, porta lobortis mauris. Morbi a nibh bibendum, aliquet ligula quis, ultricies nibh. Proin ultrices feugiat ornare. Cras vitae neque maximus, vulputate erat ut, mollis nibh. In sed egestas purus. Phasellus condimentum scelerisque nisi, ut iaculis ante elementum sed. Ut lobortis turpis id hendrerit lobortis. In finibus posuere sodales. Sed commodo consequat dolor at pharetra. Etiam eros tellus, viverra sit amet ipsum sed, hendrerit lobortis nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin gravida magna dignissim nunc egestas feugiat. Maecenas sodales arcu mauris.",
-	"slika7": "Ut pharetra ex non tincidunt pellentesque. Ut feugiat pharetra felis, vel posuere justo accumsan eget. Vivamus nec mollis risus, quis suscipit dolor. Cras euismod sollicitudin nisi a semper. Praesent non vulputate arcu. Donec efficitur eu lectus ut mattis. Donec lobortis maximus justo eu vehicula. Nullam vitae maximus quam, et tempor metus. Pellentesque non nisi eget arcu imperdiet eleifend. Nunc eu pellentesque purus, a suscipit neque.",
-	"slika8": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut elementum ornare nunc ut iaculis. Nam tempor, velit in faucibus venenatis, libero sapien ultrices nisl, a varius mauris libero at lectus. Donec facilisis egestas tortor eget vulputate. Mauris metus diam, hendrerit a odio et, vestibulum fermentum tortor. Integer posuere id ipsum ac ornare. Vivamus sed bibendum nulla, nec finibus justo. Pellentesque id mi eu lacus condimentum feugiat. Sed ac tellus ultrices, gravida risus quis, blandit lorem. Vestibulum tempor lectus vitae diam ornare commodo. Donec quis purus sed mi dignissim hendrerit. Nunc eu iaculis ex, eu accumsan ex. Maecenas luctus, sem quis interdum bibendum, tortor arcu scelerisque mauris, at cursus libero ante id nunc. Duis sed lorem id neque ullamcorper consequat. Phasellus semper mauris eu purus euismod, in tincidunt odio aliquet.",
-	"slika9": "Nulla ultrices, tortor in facilisis vehicula, erat nisi cursus tellus, sed convallis lorem turpis et lectus. Duis pulvinar elit nec libero ullamcorper pharetra. Ut nibh est, vehicula sit amet nulla vel, tristique imperdiet enim. Morbi mattis posuere felis eu laoreet. Ut tincidunt finibus libero sit amet tempor. Maecenas pulvinar vulputate risus, in accumsan nisl ultrices eget. Ut faucibus libero lorem. Vestibulum sagittis, magna sed pulvinar eleifend, nibh orci efficitur odio, sit amet tincidunt dolor lacus nec ligula. Sed ullamcorper magna id bibendum sollicitudin. Maecenas tempor magna non consectetur tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet vitae arcu lacinia cursus. Aliquam erat volutpat. Praesent porta dolor sed justo iaculis, ut tempus arcu facilisis. Cras eget felis et urna venenatis elementum.",
-	"slika10": "Aliquam mi mauris, aliquam ac libero lobortis, tincidunt pellentesque tortor. Vestibulum est est, posuere tincidunt nisi nec, pellentesque iaculis ex. Pellentesque posuere urna et sem facilisis pulvinar. Donec eget mollis leo. Nulla facilisi. Donec fermentum, libero vitae efficitur hendrerit, mauris ex placerat libero, quis aliquam libero mauris vitae lacus. Sed ipsum dui, varius at rutrum ut, viverra sit amet nisi. Sed convallis mi sed neque efficitur gravida. In pretium, metus quis vestibulum cursus, nunc massa euismod libero, ac ultricies neque nibh eu augue."
-}
+    "slika1": "Mapa prikazuje raspored sedam svetskih čuda antičkog sveta i mesta na kojima su se ona nalazila. Na njoj možemo videti da su čuda bila raspoređena u različitim delovima starog sveta, od Egipta i Mesopotamije do Male Azije i Grčke. Ova mapa pomaže korisniku da lakše poveže svako čudo sa njegovim geografskim položajem i istorijskim okruženjem. Sedam svetskih čuda antičkog sveta predstavljaju najpoznatija graditeljska i umetnička dostignuća starih civilizacija. Ona pokazuju veliko znanje, bogatstvo, verovanja i veštinu naroda koji su ih stvorili. Od svih antičkih čuda do danas je u potpunosti sačuvana samo Keopsova piramida u Gizi, dok su ostala poznata na osnovu istorijskih izvora, opisa i arheoloških ostataka.",
+    "slika2": "Viseći vrtovi Semiramide, prema predanju, nalazili su se u Vavilonu. Smatra se da ih je izgradio kralj Navuhodonosor II za svoju suprugu. Vrtovi su bili postavljeni na visokim terasama i ispunjeni zelenilom, zbog čega su ostali simbol lepote i raskoši drevnog Vavilona.",
 
-Array.from(document.querySelectorAll(".small-image img")).forEach(img => {
-	img.addEventListener("click", () => {
-		document.querySelector(".center-image img").src = img.src;
-		document.querySelector("textarea").value = opisi[img.id];
-	})
-})
+    "slika3": "Artemidin hram u Efesu bio je posvećen boginji Artemidi, zaštitnici lova i prirode. Nalazio se na prostoru današnje Turske i bio je poznat po velikom broju stubova, raskošnoj dekoraciji i veličini. Smatra se jednim od najlepših hramova antičkog sveta.",
+
+    "slika4": "Mauzolej u Halikarnasu bio je raskošna grobnica kralja Mauzola i njegove supruge Artemizije. Izgrađen je u 4. veku pre nove ere u Halikarnasu, današnjem Bodrumu u Turskoj. Bio je poznat po bogatoj dekoraciji, monumentalnom izgledu i velikom uticaju na kasniju arhitekturu.",
+
+    "slika5": "Keopsova piramida u Gizi je najstarije i jedino sačuvano čudo antičkog sveta. Podignuta je kao grobnica faraona Keopsa oko 2560. godine pre nove ere. Sagrađena je od velikih kamenih blokova i vekovima je bila jedna od najviših građevina na svetu.",
+
+    "slika6": "Zevsova statua u Olimpiji bila je delo poznatog grčkog vajara Fidije. Predstavljala je vrhovnog grčkog boga Zevsa kako sedi na prestolu. Bila je izrađena od zlata, slonovače i drveta, a nalazila se u Zevsovom hramu u Olimpiji.",
+
+    "slika7": "Ostaci Artemidinog hrama u Efesu danas svedoče o nekadašnjoj veličini ovog antičkog svetilišta. Iako hram više ne postoji u svom prvobitnom obliku, sačuvani stubovi i ruševine podsećaju na značaj Efesa i na arhitektonska dostignuća starog sveta.",
+
+    "slika8": "Piramide u Gizi predstavljaju jedan od najpoznatijih simbola starog Egipta. Najpoznatija među njima je Keopsova piramida, koja pripada sedam svetskih čuda antičkog sveta. Ove građevine pokazuju razvijeno znanje Egipćana iz matematike, građevinarstva i organizacije rada.",
+
+    "slika9": "Kolos sa Rodosa bio je ogromna bronzana statua boga Heliosa, zaštitnika ostrva Rodos. Podignut je u znak pobede i slobode grada. Iako je srušen u zemljotresu, ostao je jedan od najpoznatijih simbola snage, umetnosti i graditeljstva antičke Grčke.",
+
+    "slika10": "Čičen Ica je poznato arheološko nalazište na poluostrvu Jukatan u Meksiku. Najpoznatija građevina je Kukulkanova piramida, koja pokazuje znanje Maja iz astronomije, matematike i arhitekture. Ova slika predstavlja jedno od najpoznatijih svetskih kulturnih nasleđa."
+};
+
+window.addEventListener("DOMContentLoaded", () => {
+    const opis = document.querySelector("textarea");
+    const centralnaSlika = document.querySelector(".center-image img");
+    const maleSlike = document.querySelectorAll(".small-image img");
+
+    // Odmah prikazuje tekst za početnu sliku, da se ne vidi Lorem ipsum.
+    if (opis) {
+        opis.value = opisi["slika1"];
+    }
+
+    maleSlike.forEach(img => {
+        img.addEventListener("click", () => {
+            centralnaSlika.src = img.src;
+            centralnaSlika.alt = img.alt;
+            opis.value = opisi[img.id];
+        });
+    });
+});
