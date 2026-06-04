@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +8,11 @@
     <link rel="shortcut icon" href="./slike/LOGO.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/autor.css">
-    <title>B2 - Domaće životinje | Autor</title>
+    <title>Б2 - Домаће животиње | Аутор</title>
 </head>
 <body>
     <header>
-        <h1>Domaće životinje - Autor</h1>
+        <h1>Домаће животиње - Аутор</h1>
         <?php 
             $url = "autor";
             require "./components/nav.php";
@@ -21,15 +21,15 @@
     <main>
          <div class="info">
             <div class="name">
-                <h2>Andjela Bekic</h2>
+                <h2>Анђела Бекић</h2>
                 <h4>IV<span>3</span></h4>
             </div>
         </div>
         <div class="contact">
-    <p>Email: andjela.bekic2007@gmail.com</p>
-    <p>Telefon: +381 63 111 111</p>
-    <p>Adresa: Ulica 123, Kovacica, Srbija</p>
-</div>
+            <p>Имејл: andjela.bekic2007@gmail.com</p>
+            <p>Телефон: +381 63 111 111</p>
+            <p>Адреса: Улица 123, Ковачица, Србија</p>
+        </div>
     </main>
 <?php 
 require "./components/footer.php";
