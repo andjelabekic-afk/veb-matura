@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +7,22 @@
     <link rel="shortcut icon" href="./slike/LOGO.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/pocetna.css">
-    <title>B2 - Domaće životinje</title>
+    <title>Б2 - Домаће животиње</title>
 </head>
 <body>
     <header>
-        <h1>Domaće životinje</h1>
+        <h1>Домаће животиње</h1>
         <?php 
             $url = "index";
             require "./components/nav.php";
         ?>
     </header>
     <main class="image-list">
-        <div class="image"><img src="./slike/pas.jpg" alt="Pas" id="pas"></div>
-        <div class="image"><img src="./slike/pace.jpg" alt="Pače" id="patka"></div>
-        <div class="image"><img src="./slike/macka.jpg" alt="Mače" id="macka"></div>
-        <div class="image"><img src="./slike/pile.jpg" alt="Pile" id="kokoska"></div>
-        <div class="image"><img src="./slike/krava.jpg" alt="Krava" id="krava"></div>
+        <div class="image"><img src="./slike/pas.jpg" alt="Пас" id="pas"></div>
+        <div class="image"><img src="./slike/pace.jpg" alt="Паче" id="patka"></div>
+        <div class="image"><img src="./slike/macka.jpg" alt="Маче" id="macka"></div>
+        <div class="image"><img src="./slike/pile.jpg" alt="Пиле" id="kokoska"></div>
+        <div class="image"><img src="./slike/krava.jpg" alt="Крава" id="krava"></div>
     </main>
     <audio id="audio-pas">
         <source src="./audio/pas.mp3"></source>
