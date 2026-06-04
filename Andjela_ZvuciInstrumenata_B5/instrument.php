@@ -1,26 +1,26 @@
-<?php 
-	$instrumenti = array(
-		"zicani" => array(
-			"naziv" => "Žičani instrumenti",
-			"opis" => "Žičani instrumenti su muzički instrumenti kod kojih se zvuk proizvodi treperenjem njegovih žica. Muzičar može proizvoditi zvuk pomoću prstiju, trzalice ili gudalom (gudački instrumenti), a drugi udaranjem po strunama lakim drvenim čekićem. Kod nekih klavijaturnih instrumenata, kao što je čembalo, muzičar pritisne tipku čime se okida žica. Drugi muzički instrumenti generišu zvuk udaranjem u žicu."
-		),
-		"gudacki" => array(
-			"naziv" => "Gudački instrumenti",
-			"opis" => "Gudački instrumenti su dobili ime zbog načina dobijanja tona: prevlačenje gudala preko žice izaziva treperenje žice i stvara ton. Gudački instrumenti imaju četiri žica različite debljine. Najdublje tonove proizvode prezne (nedodirnute) žice, dok viši tonovi nastaju njihovim skraćivanjem, što se postiže pritiskom prstiju leve ruke po žicama. Svi instrumenti ove grupe su slične građe i oblika, ali različite veličine, opsega tonova i boje zvuka. U ove instrumente spadaju: violina, violončelo, viola i kontrabas."
-		),
-		"dirke" => array(
-			"naziv" => "Instrumenti s dirkama",
-			"opis" => "Instrumenti sa dirkama su grupa muzičkih instrumenata koji koriste klavijaturu i njene tipke kao glavni izvor zvuka. Najpoznatiji instrumenti ovog tipa su klavir, orgulje, električna klavijatura i drugi"
-		),
-		"udaraljke" => array(
-			"naziv" => "Udarački instrumenti",
-			"opis" => "Udaraljke su po građi najprimitivniji rod muzičkih instrumenata. Od pradavnih vremena pa do danas one su se javljale u različitim oblicima i vrstama u narodnoj i umetničkoj muzici. Zvuk se dobija udarom po zvučnom izvoru. Udara se rukom (tamburin), raznim vrstama palica (timpani, gong, zvona, ksilofon i drugi), metalnom šipkom (trijangl) ili jednom površinom o drugu (čineli, kastanjete), ređe pomoću mehanizma (čelesta)"
-		),
-		"duvacki" => array(
-			"naziv" => "Duvački instrumenti",
-			"opis" => "Duvački instrumenti, kako i sam naziv kaže, su instrumenti na kojima se ton proizvodi duvanjem, obično iz usta i pluća svirača. Duvački instrumenti su jedna velika i raznovrsna porodica. Razlikuju se po obliku, materijalu, načinu duvanja i ulozi. Oni spadaju u aerofone instrumente."
-		)
-	);
+<?php
+$instrumenti = array(
+        "zicani" => array(
+                "naziv" => "Жичани инструменти",
+                "opis" => "Жичани инструменти су музички инструменти код којих се звук производи треперењем његових жица. Музичар може производити звук помоћу прстију, трзалице или гудалом (гудачки инструменти), а други ударањем по струнама лаким дрвеним чекићем. Код неких клавијатурних инструмената, као што је чембало, музичар притисне типку чиме се окида жица. Други музички инструменти генеришу звук ударањем у жицу."
+        ),
+        "gudacki" => array(
+                "naziv" => "Гудачки инструменти",
+                "opis" => "Гудачки инструменти су добили име због начина добијања тона: превлачење гудала преко жице изазива треперење жице и ствара тон. Гудачки инструменти имају четири жица различите дебљине. Најдубље тонове производе презне (недодирнуте) жице, док виши тонови настају њиховим скраћивањем, што се постиже притиском прстију леве руке по жицама. Сви инструменти ове групе су сличне грађе и облика, али различите величине, опсега тонова и боје звука. У ове инструменте спадају: виолина, виолончело, виола и контрабас."
+        ),
+        "dirke" => array(
+                "naziv" => "Инструменти с диркама",
+                "opis" => "Инструменти са диркама су група музичких инструмената који користе клавијатуру и њене типке као главни извор звука. Најпознатији инструменти овог типа су клавир, оргуље, електрична клавијатура и други"
+        ),
+        "udaraljke" => array(
+                "naziv" => "Ударачки инструменти",
+                "opis" => "Удараљке су по грађи најпримитивнији род музичких инструмената. Од прадавних времена па до данас оне су се јављале у различитим облицима и врстама у народној и уметничкој музици. Зврук се добија ударом по звучном извору. Удара се руком (тамбурин), разним врстама палица (тимпани, гонг, звона, ксилофон и други), металном шипком (тријангл) или једном површином о другу (чинели, кастањете), ређе помоћу механизма (челеста)"
+        ),
+        "duvacki" => array(
+                "naziv" => "Дувачки инструменти",
+                "opis" => "Дувачки инструменти, како и сам назив каже, су инструменти на којима се тон производи дувањем, обично из уста и плућа свирача. Дувачки инструменти су једна велика и разноврсна породица. Разликују се по облику, материјалу, начину дувања и улози. Они спадају у аерофоне инструменте."
+        )
+);
 
 	if(empty($_GET["klasa"])) {
 		header("location: /");

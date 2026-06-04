@@ -8,11 +8,11 @@
     <link rel="shortcut icon" href="./slike/LOGO.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/autor.css">
-    <title>B5 - Osnovna škola "Sonja Marinković" | Autor</title>
+    <title>Б5 - Основна школа "Соња Маринковић" | Аутор</title>
 </head>
 <body>
     <header>
-        <h1>Osnovna škola "Sonja Marinković" - Autor</h1>
+        <h1>Основна школа "Соња Маринковић"</h1>
         <?php 
             $url = "autor";
             require "./components/nav.php";

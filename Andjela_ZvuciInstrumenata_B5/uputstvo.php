@@ -7,11 +7,11 @@
     <link rel="shortcut icon" href="./slike/LOGO.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/uputstva.css">
-    <title>B5 - Osnovna škola "Sonja Marinković" | Uputstvo</title>
+    <title>B5 - Основна школа "Соња Маринковић" | Упутство</title>
 </head>
 <body>
     <header>
-        <h1>Osnovna škola "Sonja Marinković" - Uputstvo</h1>
+        <h1>Основна школа "Соња Маринковић" | Упутство</h1>
         <?php 
             $url = "uputstvo";
             require "./components/nav.php";
@@ -19,21 +19,21 @@
     </header>
     <main>
         <section>
-            <h2>Početna</h2>
+            <h2>Почетна</h2>
             <p>
-                Na početnoj stranici možete videti tabelu sa nekoliko insturmenata. <br>
-                Klikom na sliku instrumenta otvara se prozor sa osnovnim podacima o instrumentu sa Wikipedije. <br>
-                Klikom na "Saznaj više" otvara se prozor sa osnovnim podacima grupe kojoj taj instrument pripada. <br>
-                Prelaskom miša preko slike zvučnika pušta se zvuk tog instrumenta.
+                На почетној страници можете видети табелу са неколико инструмената. <br>
+                Кликом на слику инструмента отвара се прозор са основним подацима о инструменту са Википедије. <br>
+                Кликом на "Сазнај више" отвара се прозор са основним подацима групе којој тај инструмент припада. <br>
+                Преласком миша преко слике звучника пушта се звук тог инструмента.
             </p>
         </section>
         <section>
-            <h2>Autor</h2>
-            <p>Na stranici o autoru možete videti ko je autor ove aplikacije i kako ga možete kontaktirati.</p>
+            <h2>Аутор</h2>
+            <p>На страници о аутору можете видети ко је аутор ове апликације и како га можете контактирати.</p>
         </section>
         <section>
-            <h2>Uputstvo</h2>
-            <p>Na stranici uputstvo možete videti uputstva aplikacije.</p>
+            <h2>Упутство</h2>
+            <p>На страници упутство можете видети упутства апликације.</p>
         </section>
     </main>
 <?php
