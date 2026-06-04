@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,7 @@
     </header>
     <main class="gallery-container">
         <div class="gallery">
-            <textarea readonly>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel velit lorem. Sed eget dignissim purus, sit amet elementum mi. Fusce viverra sapien libero, vel posuere neque accumsan at. Sed elementum luctus augue quis feugiat. Nunc vel volutpat mauris, non sodales justo. Mauris imperdiet volutpat massa, sed consequat nulla aliquet in. Duis in massa tincidunt, imperdiet dui nec, porttitor lacus. Ut aliquet mollis ante eget pulvinar. Suspendisse venenatis sagittis est mattis aliquam. Donec augue sapien, molestie quis mattis non, posuere vel ligula. Aliquam finibus neque vel luctus ornare. Pellentesque ac lectus gravida, vestibulum enim ut, aliquet elit. Maecenas tincidunt leo molestie nisl fringilla, in mattis mauris sodales.</textarea>
+            <textarea readonly>Mapa prikazuje raspored sedam svetskih čuda antičkog sveta. Ona pomaže korisniku da vidi gde su se nalazila najpoznatija graditeljska i umetnička dostignuća starog veka. Čuda antičkog sveta pokazuju moć, znanje, bogatstvo i veštinu starih civilizacija.</textarea>
             <div class="center-image">
                 <img src="./slike/slika1.jpg" alt="Centralna slika">
             </div>
