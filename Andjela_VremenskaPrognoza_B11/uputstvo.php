@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,28 +12,49 @@
 <body>
     <header>
         <h1>Turistička agencija "Planinar" - Uputstvo</h1>
+
         <?php 
             $url = "uputstvo";
             require "./components/nav.php";
         ?>
     </header>
+
     <main>
         <section>
             <h2>Početna</h2>
             <p>
-                Na početnoj stranici možete videti galeriju slika. <br>
-                Galerija se sastoji iz jedne centralne slike, sa svojim opisom iznad nje i 10 malih slika ispod. <br>
-                Klikom na jednu od malih slika postavljate je za centralnu te će ona zameniti trenutnu centralnu sliku i njen opis svojim.
+                Na početnoj stranici korisnik može da izabere grad ili lokaciju u Srbiji
+                za koju želi da vidi vremensku prognozu. <br>
+                Grad se bira iz padajuće liste, a nakon izbora u IFRAME prozoru prikazuje
+                se dnevna vremenska prognoza za izabranu lokaciju. <br>
+                Pored vremenske prognoze prikazan je i kratak opis najznačajnijih
+                turističkih mesta koja se mogu posetiti u tom gradu.
             </p>
         </section>
+
         <section>
-            <h2>Autor</h2>
-            <p>Na stranici o autoru možete videti ko je autor ove aplikacije i kako ga možete kontaktirati.</p>
+            <h2>O autoru</h2>
+            <p>
+                Na stranici O autoru nalaze se osnovni podaci o autoru aplikacije,
+                kao što su ime, prezime, odeljenje i škola. <br>
+                Ova stranica služi za predstavljanje učenika koji je izradio web aplikaciju.
+            </p>
         </section>
+
         <section>
             <h2>Uputstvo</h2>
-            <p>Na stranici uputstvo možete videti uputstva aplikacije.</p>
+            <p>
+                Stranica Uputstvo sadrži kratko korisničko uputstvo i objašnjenje
+                strukture aplikacije. <br>
+                Aplikacija se sastoji od tri stranice: Početna, O autoru i Uputstvo. <br>
+                CSS kod je izdvojen u posebne datoteke u folderu css, dok se slike,
+                ikone i ostali resursi nalaze u folderu slike.
+            </p>
         </section>
     </main>
+
+    <footer>
+        <p>Turistička agencija "Planinar" &copy; 2026</p>
+    </footer>
 </body>
 </html>
